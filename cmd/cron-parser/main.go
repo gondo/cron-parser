@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/gondo/deliveroo-interview/internal/output"
-	"github.com/gondo/deliveroo-interview/internal/parser"
+	"github.com/gondo/cron-parser/internal/output"
+	"github.com/gondo/cron-parser/internal/parser"
 	"os"
 )
 

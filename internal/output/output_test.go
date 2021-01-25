@@ -1,7 +1,7 @@
 package output
 
 import (
-	"github.com/gondo/deliveroo-interview/internal/parser"
+	"github.com/gondo/cron-parser/internal/parser"
 	"testing"
 )
 

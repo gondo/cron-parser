@@ -1,3 +1,3 @@
-module github.com/gondo/deliveroo-interview
+module github.com/gondo/cron-parser
 
 go 1.15

@@ -16,8 +16,8 @@ Day of week  | 0-7 or SUN-SAT  | * / , - ?
 - Implement `L` last day for `Day of month` and `Day of week`.
 - Implement `W` nearest working day for given day for `Day of month`.
 
-## Setup
-- 
+## Requirement
+- properly installed golang
 
 ## Build
 
