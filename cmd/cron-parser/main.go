@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"github.com/gondo/cron-parser/internal/output"
 	"github.com/gondo/cron-parser/internal/parser"
@@ -19,15 +20,11 @@ func main() {
 }
 
 func processInput() (string, error) {
-	//return "0 0 0 0 0 /usr/bin/find", nil
-	return "*/15 0 1,15 * 1-5 /usr/bin/find", nil
-	//return "* * * * * /usr/bin/find", nil
-
-	//args := os.Args[1:]
-	//if len(args) != 1 {
-	//	return "", errors.New("invalid number of arguments")
-	//}
-	//return args[0], nil
+	args := os.Args[1:]
+	if len(args) != 1 {
+		return "", errors.New("invalid number of arguments")
+	}
+	return args[0], nil
 }
 
 func checkError(err error) {
