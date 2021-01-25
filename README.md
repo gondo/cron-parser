@@ -1,4 +1,4 @@
-# Deliveroo Technical Task - Cron Expression Parse  
+# Cron Expression Parse  
 
 By Michal Gondar, Jan 2021
 
